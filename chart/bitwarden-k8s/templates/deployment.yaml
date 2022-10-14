@@ -46,11 +46,11 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /
+              path: /bitwarden
               port: http
           readinessProbe:
             httpGet:
-              path: /
+              path: /bitwarden
               port: http
           volumeMounts:
           - name: data

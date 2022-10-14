@@ -14,6 +14,7 @@ image:
 env:
   SIGNUPS_ALLOWED: true
   INVITATIONS_ALLOWED: true
+  DOMAIN: "https://example.domain.com/bitwarden"
   # SERVER_ADMIN_EMAIL
   # DOMAIN
   # YUBICO_CLIENT_ID
